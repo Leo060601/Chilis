@@ -52,7 +52,7 @@
                               </ul>
                           </li>
                           <li class="scroll-to-section"><a href="#testimonials">Programa Lealtad</a></li> 
-                          <li class="scroll-to-section"><a href="#contact-section">Contactanos</a></li> 
+                          <li class="scroll-to-section"><a id="#contact-section">Contactanos</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -75,7 +75,7 @@
             <h2>Cada</h2>
             <h2><em>Momento</em></h2>
             <div class="main-button-gradient">
-              <div class="scroll-to-section"><a href="#contact-section">Conocenos</a></div>
+              <div class="scroll-to-section"><a id="#contact-section">Conocenos</a></div>
             </div>
           </div>
         </div>
@@ -510,6 +510,9 @@
     <script src="assets/js/custom.js"></script>
     <script>
         //according to loftblog tut
+        const contactSection = document.getElementById('contact-section');
+        const top = contactSection.offsetTop;
+
         $('.nav li:first').addClass('active');
 
         var showSection = function showSection(section, isAnimate) {
