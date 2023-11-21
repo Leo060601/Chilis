@@ -258,7 +258,7 @@ header
 }
 
 .header-area {
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/bannerRojo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -906,6 +906,7 @@ section.our-courses ul.nacc li .left-image .price h6 {
   display: inline-block;
   text-align: center;
   line-height: 50px;
+  margin-right: 500px;
 }
 
 section.our-courses ul.nacc li .right-content {
@@ -967,7 +968,7 @@ cta
 */
 
 section.simple-cta {
-  background-image: url(../images/cta-bg.png);
+  background-image: url(../images/bannerRojo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -976,7 +977,7 @@ section.simple-cta {
 }
 
 section.simple-cta .left-image {
-  margin-right: 45px;
+  margin-right: 10px;
 }
 
 section.simple-cta h6 {
@@ -1097,7 +1098,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footerRojo.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1237,13 +1238,13 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #d02727;
   border-radius: 50%;
   transition: all .5s;
 }
 
 section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
+  background-color: #d02727;
   color: #fff;
 }
 
